@@ -417,6 +417,10 @@ ol{
 
 
 /*** Service ***/
+.service-header.page-header {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/services.png) center center no-repeat;
+    background-size: cover;
+}
 .service-item img {
     transition: .5s;
 }
@@ -451,6 +455,10 @@ ol{
 
 
 /*** Project Portfolio ***/
+.project-header.page-header {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/project.jpg) center center no-repeat;
+    background-size: cover;
+}
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
@@ -647,6 +655,10 @@ ol{
 
 
 /*** Contact ***/
+.contact-header {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/contact.jpg) center center no-repeat;
+    background-size: cover;
+}
 @media (min-width: 992px) {
     .container.contact {
         max-width: 100% !important;
@@ -668,7 +680,11 @@ ol{
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
-
+ /* 404  */
+ .four-header {
+    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../img/about.jpg) center center no-repeat;
+    background-size: cover;
+}
 
 /*** Footer ***/
 .footer {
