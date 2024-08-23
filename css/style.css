@@ -830,6 +830,7 @@ ol{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 50px;
 }
 .product-card{
     width: 280px;
@@ -853,6 +854,7 @@ ol{
     height: 100px;
 
 }
+
 .product-content h3{
     margin-bottom: 15px;
     font-size: 25px;
